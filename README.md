@@ -1,4 +1,5 @@
 # [In-N-Out: Towards Good Initialization for Inpainting and Outpainting](https://arxiv.org/abs/2106.13953)
+by [Changho Jo](https://linkedin.com/in/changho-jo-19805997), [Woobin Im](https://iwbn.github.io/), [Sung-Eui Yoon](http://sgvr.kaist.ac.kr/~sungeui/)
 ## Introduction
 <p><img src="./imgs/baseline_approach.png" width="49.5%" alt="baseline_approach"> <img src="./imgs/InNOut_approach.png" width="49.5%" alt="InNOut_approach"></p>
 <p><img src="./imgs/training_process.png" width="100%" alt="training_process"></p>
