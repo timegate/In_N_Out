@@ -12,6 +12,9 @@ pip install easydict==1.9
 pip install future==0.18.2
 pip install natsort==7.1.0
 pip install scikit-image==0.17.2
+
+# copy folders to /root/In_N_Out/
+https://drive.google.com/drive/folders/1EOr3Id_8tDjefJmDKOKIk1y8K_ZYGTiI?usp=sharing
 ```
 
 Below instructions assume that you have downloaded our folder to "/root/In_N_Out".
