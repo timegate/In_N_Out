@@ -13,7 +13,7 @@ pip install future==0.18.2
 pip install natsort==7.1.0
 pip install scikit-image==0.17.2
 
-# copy folders to /root/In_N_Out/, and then unzip /root/In_N_Out/celebA.zip
+# please unzip and copy folders to /root/In_N_Out/ablation_study.
 https://drive.google.com/drive/folders/1EOr3Id_8tDjefJmDKOKIk1y8K_ZYGTiI?usp=sharing
 ```
 
