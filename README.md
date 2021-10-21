@@ -1,4 +1,15 @@
-# In-N-Out: Towards Good Initialization for Inpainting and Outpainting
+# [In-N-Out: Towards Good Initialization for Inpainting and Outpainting](https://arxiv.org/abs/2106.13953)
+## Introduction
+<p><img src="./imgs/baseline_approach.png" width="49.5%" alt="baseline_approach"> <img src="./imgs/InNOut_approach.png" width="49.5%" alt="InNOut_approach"></p>
+<p><img src="./imgs/training_process.png" width="100%" alt="training_process"></p>
+
+Our method provides general approach to improve inpainting or outpainting networks. Simply, if your target task is inpainting, train your network with outpainting task first. Otherwise, train your network with inpainting task first. For an implementation directly into your network, it's enough to write mask = 1 - mask during the training itrations of your first half.
+
+<p><img src="./imgs/inpainting_imgs.png" width="49.5%" alt="inpainting_imgs"> <img src="./imgs/outpainting_imgs.png" width="49.5%" alt="outpainting_imgs"></p>
+<p><img src="./imgs/beach_imgs.png" width="49.5%" alt="beach_imgs"> <img src="./imgs/MEDFE_imgs.png" width="49.5%" alt="MEDFE_imgs"></p>
+
+You can find more results in our supplement (to be uploaded).
+
 ## Installation
 Tested on CUDA 10.2, ubuntu 16.04 (or 18.04) docker environment.\
 Please make an environment using In_N_Out_environment.txt, and then install below things more.
