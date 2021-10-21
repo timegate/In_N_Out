@@ -91,8 +91,10 @@ class TrainOptions:
 
         # inpainting
         self.parser.add_argument('--train_inpainting', type=int, default=1)
-        self.parser.add_argument('--inpainting', type=int, default=1)
         self.parser.add_argument('--use_random_mask', type=int, default=0)
+
+        # this option is not used currently. you can ignore this.
+        self.parser.add_argument('--inpainting', type=int, default=1)
 
         # Inherit only g_vars? or g_vars + d_vars?
         self.parser.add_argument('--inherit_d', type=int, default=1)
