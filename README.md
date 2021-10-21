@@ -1,6 +1,6 @@
 # [In-N-Out: Towards Good Initialization for Inpainting and Outpainting](https://arxiv.org/abs/2106.13953)
 ## Introduction
-<p><img src="./imgs/baseline_approach_300.png" width="49.5%" alt="baseline_approach"> <img src="./imgs/InNOut_approach.png" width="49.5%" alt="InNOut_approach"></p>
+<p><img src="./imgs/baseline_approach.png" width="49.5%" alt="baseline_approach"> <img src="./imgs/InNOut_approach.png" width="49.5%" alt="InNOut_approach"></p>
 <p><img src="./imgs/training_process.png" width="100%" alt="training_process"></p>
 
 Our method provides general approach to improve inpainting or outpainting networks. Simply, if your target task is inpainting, train your network with outpainting task first. Otherwise, train your network with inpainting task first. For an implementation directly into your network, it's enough to write mask = 1 - mask during the training itrations of your first half.
