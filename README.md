@@ -4,7 +4,7 @@ by [Changho Jo](https://linkedin.com/in/changho-jo-19805997), [Woobin Im](https:
 <p><img src="./imgs/baseline_approach.png" width="49.5%" alt="baseline_approach"> <img src="./imgs/InNOut_approach.png" width="49.5%" alt="InNOut_approach"></p>
 <p><img src="./imgs/training_process.png" width="100%" alt="training_process"></p>
 
-Our method provides general approach to improve inpainting or outpainting networks. Simply, if your target task is inpainting, train your network with outpainting task first. Otherwise, train your network with inpainting task first. For an implementation directly into your network, it's enough to write mask = 1 - mask during the training itrations of your first half.
+Our method provides general approach to improve inpainting or outpainting networks. Simply, if your target task is inpainting, train your network with outpainting task first. Otherwise, train your network with inpainting task first. For an implementation directly into your network, it's enough to write mask = 1 - mask during the first half of training itrations.
 
 <p><img src="./imgs/inpainting_imgs.png" width="49.5%" alt="inpainting_imgs"> <img src="./imgs/outpainting_imgs.png" width="49.5%" alt="outpainting_imgs"></p>
 <p><img src="./imgs/beach_imgs.png" width="49.5%" alt="beach_imgs"> <img src="./imgs/MEDFE_imgs.png" width="49.5%" alt="MEDFE_imgs"></p>
