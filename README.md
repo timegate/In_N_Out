@@ -2,7 +2,7 @@
 by [Changho Jo](https://linkedin.com/in/changho-jo-19805997), [Woobin Im](https://iwbn.github.io/), [Sung-Eui Yoon](http://sgvr.kaist.ac.kr/~sungeui/)
 ## Introduction
 <p><img src="./imgs/baseline_approach_v2.png" width="49.5%" alt="baseline_approach"> <img src="./imgs/InNOut_approach_v2.png" width="49.5%" alt="InNOut_approach"></p>
-<p><img src="./imgs/training_process_v2.png" width="100%" alt="training_process"></p>
+<p><img src="./imgs/training_process.png" width="100%" alt="training_process"></p>
 
 Our method provides general approach to improve inpainting or outpainting networks. Simply, if your target task is inpainting, train your network with outpainting task first. Otherwise, train your network with inpainting task first. For an implementation directly into your network, it's enough to write mask = 1 - mask during the first half of training itrations.
 
