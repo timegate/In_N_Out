@@ -17,7 +17,7 @@ from tensorflow.python.keras.backend import set_session
 from tensorflow.python.keras import backend as K
 
 # This code only affects batch norm (we don't use dropout).
-# Double checked that this does not affect to the conclusion of our paper (The metrics can get very slightly worse. but the tendency between baseline and In-N-Out method remains the same).
+# Double checked that this does not affect to the conclusion of our paper (The metrics can get very slightly worse or better. but the tendency between baseline and In-N-Out method remains the same, and the graphs are almost same).
 K.set_learning_phase(1)
 
 """
