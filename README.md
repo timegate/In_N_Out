@@ -69,15 +69,6 @@ https://drive.google.com/drive/folders/1EOr3Id_8tDjefJmDKOKIk1y8K_ZYGTiI?usp=sha
 ## Citation
 If our In-N-Out concept is useful to you, please consider citing
 ```sh
-# will be updated after BMVC 2021
-@misc{jo2021innout,
-      title={In-N-Out: Towards Good Initialization for Inpainting and Outpainting}, 
-      author={Changho Jo and Woobin Im and Sung-Eui Yoon},
-      year={2021},
-      eprint={2106.13953},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
 @InProceedings{Jo2021innout,
 author       = "Changho Jo and Woobin Im and SungEui Yoon",
 title        = "In-N-Out: Towards Good Initialization for Inpainting and Outpainting",
