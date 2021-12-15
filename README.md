@@ -78,6 +78,12 @@ If our In-N-Out concept is useful to you, please consider citing
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+@InProceedings{Jo2021innout,
+author       = "Changho Jo and Woobin Im and SungEui Yoon",
+title        = "In-N-Out: Towards Good Initialization for Inpainting and Outpainting",
+booktitle    = "The British Machine Vision Conference (BMVC)",
+year         = "2021",
+}
 ```
 
 ## Acknowledgments
